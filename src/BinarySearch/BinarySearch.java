@@ -22,6 +22,7 @@ public class BinarySearch {
         int answerIndex = binarySearch(arr, target);
 
         System.out.println(index);
+        System.out.println(answerIndex);
     }
 
     private static int binarySearch(int[] arr, int target){
