@@ -13,10 +13,13 @@ public class BinarySearch {
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
+        // make it excption
 
         int target =  sc.nextInt();
 
         int index = binarySearch(arr, target);
+
+        int answerIndex = binarySearch(arr, target);
 
         System.out.println(index);
     }
