@@ -27,7 +27,7 @@ public class FloorOfNumber {
         // this is the largest element which are less than are equal to the target
         int[] arr = new int[4];
         int target = 5;
-        binarySearch(arr, target);
+        int res = binarySearch(arr, target);
 
 
         System.out.println(binarySearch(arr, target));
