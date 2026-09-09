@@ -29,7 +29,6 @@ public class FloorOfNumber {
         int target = 5;
         int res = binarySearch(arr, target);
 
-
         System.out.println(binarySearch(arr, target));
 
     }
