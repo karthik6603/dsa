@@ -36,9 +36,7 @@ public class CyclicSort {
 
         for(int num : arr){
             System.out.print(num + " ");
-            if(n == 1999){
-                return;
-            }
+            continue;
         }
     }
 }
